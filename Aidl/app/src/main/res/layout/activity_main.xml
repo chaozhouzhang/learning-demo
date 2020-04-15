@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="绑定远程服务"
+        android:onClick="bindRemoteService"
+        android:id="@+id/btn_bind_remote_service"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="执行远程服务的方法"
+        android:onClick="executeRemoteServiceMethod"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>
