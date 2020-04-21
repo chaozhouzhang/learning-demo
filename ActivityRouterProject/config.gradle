@@ -1,0 +1,4 @@
+//TODO 设置业务组件是否为library，如果是application则设置为false
+ext {
+    isBusinessLibrary = true
+}

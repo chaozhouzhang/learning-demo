@@ -1,0 +1,8 @@
+rootProject.name='ActivityRouterProject'
+include ':app'
+include ':router_compiler'
+include ':router_annotation'
+include ':router-api'
+include ':bussiness:listen'
+include ':bussiness:speak'
+include ':common'
